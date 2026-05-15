@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>English Lectures</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #0a0a0f;
+    --surface: #111118;
+    --surface2: #1a1a24;
+    --border: rgba(255,255,255,0.07);
+    --gold: #c9a84c;
+    --gold-dim: rgba(201,168,76,0.15);
+    --gold-glow: rgba(201,168,76,0.08);
+    --text: #e8e4d9;
+    --text-dim: #6b6760;
+    --text-mid: #a09b92;
+    --accent: #7c6fd4;
+    --accent-dim: rgba(124,111,212,0.12);
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* Grain overlay */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 100;
+    opacity: 0.4;
+  }
+
+  /* Background glow */
+  .bg-glow {
+    position: fixed;
+    top: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 800px;
+    height: 600px;
+    background: radial-gradient(ellipse, rgba(201,168,76,0.04) 0%, transparent 70%);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .bg-glow-2 {
+    position: fixed;
+    bottom: -10%;
+    right: -10%;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(ellipse, rgba(124,111,212,0.05) 0%, transparent 70%);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* Layout */
+  .wrapper {
+    position: relative;
+    z-index: 1;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  /* Header */
+  header {
+    padding: 4rem 0 3rem;
+    position: relative;
+  }
+
+  .eyebrow {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.7rem;
+    font-weight: 400;
+    letter-spacing: 0.25em;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    opacity: 0;
+    animation: fadeUp 0.6s ease forwards;
+  }
+
+  .eyebrow::before {
+    content: '';
+    display: inline-block;
+    width: 28px;
+    height: 1px;
+    background: var(--gold);
+  }
+
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(3rem, 8vw, 5.5rem);
+    font-weight: 900;
+    line-height: 0.95;
+    letter-spacing: -0.02em;
+    color: var(--text);
+    opacity: 0;
+    animation: fadeUp 0.6s 0.1s ease forwards;
+  }
+
+  h1 em {
+    font-style: italic;
+    color: var(--gold);
+  }
+
+  .header-rule {
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, var(--gold) 0%, transparent 60%);
+    margin-top: 2.5rem;
+    opacity: 0;
+    animation: fadeIn 0.8s 0.3s ease forwards;
+  }
+
+  /* Deck grid */
+  .decks {
+    padding: 2.5rem 0 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+
+  .deck-card {
+    display: block;
+    text-decoration: none;
+    position: relative;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 2rem 2.5rem;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(16px);
+  }
+
+  .deck-card:nth-child(1) { animation: fadeUp 0.5s 0.35s ease forwards; }
+  .deck-card:nth-child(2) { animation: fadeUp 0.5s 0.45s ease forwards; }
+  .deck-card:nth-child(3) { animation: fadeUp 0.5s 0.55s ease forwards; }
+
+  .deck-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, var(--gold-glow), transparent 60%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .deck-card::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: var(--gold);
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: transform 0.3s ease;
+  }
+
+  .deck-card:hover {
+    background: var(--surface2);
+    border-color: rgba(201,168,76,0.2);
+    transform: translateX(4px);
+  }
+
+  .deck-card:hover::before { opacity: 1; }
+  .deck-card:hover::after { transform: scaleY(1); }
+
+  .deck-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    position: relative;
+    z-index: 1;
+  }
+
+  .deck-left { flex: 1; }
+
+  .deck-index {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    font-style: italic;
+    color: rgba(201,168,76,0.12);
+    line-height: 1;
+    margin-bottom: 0.5rem;
+    transition: color 0.3s ease;
+    user-select: none;
+  }
+
+  .deck-card:hover .deck-index {
+    color: rgba(201,168,76,0.25);
+  }
+
+  .deck-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 0.4rem;
+    line-height: 1.2;
+    transition: color 0.3s ease;
+  }
+
+  .deck-card:hover .deck-title { color: #fff; }
+
+  .deck-desc {
+    font-size: 0.82rem;
+    color: var(--text-mid);
+    font-weight: 300;
+    letter-spacing: 0.01em;
+  }
+
+  .deck-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.6rem;
+    flex-shrink: 0;
+  }
+
+  .deck-tag {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--gold);
+    background: var(--gold-dim);
+    border: 1px solid rgba(201,168,76,0.2);
+    padding: 0.25rem 0.6rem;
+    border-radius: 2px;
+  }
+
+  .deck-arrow {
+    width: 36px;
+    height: 36px;
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-dim);
+    transition: all 0.3s ease;
+    flex-shrink: 0;
+  }
+
+  .deck-card:hover .deck-arrow {
+    border-color: var(--gold);
+    color: var(--gold);
+    background: var(--gold-dim);
+    transform: translateX(3px);
+  }
+
+  .deck-arrow svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  /* Footer */
+  footer {
+    border-top: 1px solid var(--border);
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .footer-left {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+  }
+
+  .footer-dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--gold);
+    opacity: 0.5;
+  }
+
+  .footer-right {
+    font-size: 0.75rem;
+    color: var(--text-dim);
+  }
+
+  /* Animations */
+  @keyframes fadeUp {
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes fadeIn {
+    to { opacity: 1; }
+  }
+
+  /* Responsive */
+  @media (max-width: 600px) {
+    .deck-index { font-size: 2.5rem; }
+    .deck-title { font-size: 1.2rem; }
+    .deck-inner { flex-direction: column; align-items: flex-start; gap: 1rem; }
+    .deck-meta { flex-direction: row; align-items: center; }
+    footer { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
+  }
+</style>
+</head>
+<body>
+
+<div class="bg-glow"></div>
+<div class="bg-glow-2"></div>
+
+<div class="wrapper">
+
+  <header>
+    <p class="eyebrow">Presentation Archive</p>
+    <h1><em>English</em><br>Lectures</h1>
+    <div class="header-rule"></div>
+  </header>
+
+  <div class="decks">
+
+    <!-- Main deck -->
+    <a class="deck-card" href="./">
+      <div class="deck-inner">
+        <div class="deck-left">
+          <div class="deck-index">01</div>
+          <div class="deck-title">Main Lecture Deck</div>
+          <div class="deck-desc">Primary course slides — slides.md</div>
+        </div>
+        <div class="deck-meta">
+          <span class="deck-tag">Core</span>
+          <div class="deck-arrow">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <!-- Year 9 Review Sessions -->
+    <a class="deck-card" href="part2/">
+      <div class="deck-inner">
+        <div class="deck-left">
+          <div class="deck-index">02</div>
+          <div class="deck-title">Year 9 English — Review Sessions</div>
+          <div class="deck-desc">Year9_English_ReviewSessions_Slidev.md</div>
+        </div>
+        <div class="deck-meta">
+          <span class="deck-tag">Year 9</span>
+          <div class="deck-arrow">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </a>
+
+  </div>
+
+  <footer>
+    <span class="footer-left">English Lectures &nbsp;/&nbsp; Slidev</span>
+    <div class="footer-dot"></div>
+    <span class="footer-right">Built with Slidev + pnpm</span>
+  </footer>
+
+</div>
+
+</body>
+</html>
