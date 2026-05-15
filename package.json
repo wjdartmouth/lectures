@@ -3,18 +3,21 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build:main": "slidev build slides.md --base /lectures/ --out dist",
-    "build:part2":"slidev build Year9_English_ReviewSessions_Slidev.md --base /lectures/part2/ --out dist/part2",
-    "build:all":"pnpm run build:main && pnpm run build:part2 && pnpm run build:workshop",
-    "dev": "slidev --open",
-    "dev:part2": "slidev Year9_English_ReviewSessions_Slidev.md",
-    "export": "slidev export"
+    "dev":          "slidev --open",
+    "dev:part2":    "slidev Year9_English_ReviewSessions_Slidev.md",
+    "build:main":   "slidev build slides.md --base /lectures/ --out dist",
+    "build:part2":  "slidev build Year9_English_ReviewSessions_Slidev.md --base /lectures/part2/ --out dist/part2",
+    "build:all":    "pnpm run build:main && pnpm run build:part2 && cp index.html dist/index.html",
+    "deploy":       "pnpm run build:all && gh-pages -d dist",
+    "export":       "slidev export"
   },
   "dependencies": {
     "@slidev/cli": "^52.15.2",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
     "vue": "^3.5.33"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
-
 }
