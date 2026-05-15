@@ -3,8 +3,11 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "slidev build",
+    "build:main": "slidev build slides.md --base /lectures/ --out dist",
+    "build:part2":"slidev build Year9_English_ReviewSessions_Slidev.md --base /lectures/part2/ --out dist/part2",
+    "build:all":"pnpm run build:main && pnpm run build:part2 && pnpm run build:workshop",
     "dev": "slidev --open",
+    "dev:part2": "slidev Year9_English_ReviewSessions_Slidev.md",
     "export": "slidev export"
   },
   "dependencies": {
