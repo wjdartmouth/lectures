@@ -32,7 +32,7 @@ jobs:
       - run: |
           pnpm exec slidev build slides.md --base /lectures/ --out dist
           pnpm exec slidev build Year9_English_ReviewSessions_Slidev.md --base /lectures/part2/ --out dist/part2
-          - run: cp index.html dist/index.html
+          cp index.html dist/index.html
       
 
       - uses: actions/upload-pages-artifact@v3
