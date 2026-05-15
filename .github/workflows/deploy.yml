@@ -28,7 +28,20 @@ jobs:
 
       - run: pnpm install
 
-      - run: pnpm exec slidev build slides.md --base /lectures/
+      
+      - run: |
+          pnpm exec slidev build slides.md --base /lectures/ --out dist
+          pnpm exec slidev build Year9_English_ReviewSessions_Slidev.md --base /lectures/part2/ --out dist/part2
+          cat > dist/index.html << 'EOF'
+          <html><body style="font-family:sans-serif;padding:2rem">
+          <h1>My Slides</h1>
+          <ul>
+            <li><a href="./">Main Deck</a></li>
+            <li><a href="part2/">Part 2</a></li>
+          </ul>
+          </body></html>
+          EOF
+      
 
       - uses: actions/upload-pages-artifact@v3
         with:
