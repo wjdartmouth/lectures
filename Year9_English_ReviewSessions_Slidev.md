@@ -520,7 +520,7 @@ A **foil** is a character whose traits contrast with and highlight the protagoni
 
 # Part 2: Debrief & Strategies (30 min)
 
-## What to Check DURING the exam:
+## What to Check DURING the exam — Section A & B:
 
 ✅ **Section A:**
 - Did I quote accurately?
@@ -531,6 +531,10 @@ A **foil** is a character whose traits contrast with and highlight the protagoni
 - Did I *name* the technique?
 - Did I *explain the effect*?
 - Is my evidence integrated, not just pasted?
+
+---
+
+# Debrief: Section C Checklist
 
 ✅ **Section C:**
 - Is my thesis clear?
@@ -576,7 +580,7 @@ A **foil** is a character whose traits contrast with and highlight the protagoni
 
 ---
 
-# Common Mistakes to AVOID
+# Common Mistakes to AVOID: Sections A & B
 
 ❌ **Section A:**
 - Answering in your own words when evidence is needed
@@ -587,6 +591,10 @@ A **foil** is a character whose traits contrast with and highlight the protagoni
 - Just naming techniques without explaining effects
 - Using weak or vague language ("This shows...")
 - Forgetting to connect technique to character/theme
+
+---
+
+# Common Mistakes to AVOID: Section C
 
 ❌ **Section C:**
 - No clear thesis
@@ -613,13 +621,17 @@ How does it support your argument?]
 
 ---
 
-# Last-Minute Revision Checklist
+# Last-Minute Revision Checklist: Paper 1
 
 ### Paper 1 (Fiction):
 - [ ] I know Holden's main conflicts
 - [ ] I can explain what the red hat symbolises
 - [ ] I can identify 5+ techniques Salinger uses
 - [ ] I understand how Ackley reveals Holden's character
+
+---
+
+# Last-Minute Revision Checklist: Paper 2
 
 ### Paper 2 (Nonfiction):
 - [ ] I know Petrarch's paradox
@@ -676,7 +688,7 @@ How does it support your argument?]
 
 ---
 
-# Your Revision Toolkit
+# Your Revision Toolkit: Papers & Resources
 
 ### Papers & Mark Schemes Available:
 - Paper 1 MCQ + Answer Key ✓
@@ -684,6 +696,10 @@ How does it support your argument?]
 - Paper 1 Long-Form + Mark Scheme ✓
 - Paper 2 Long-Form + Mark Scheme ✓
 - Review Scope (all topics) ✓
+
+---
+
+# How to Use Your Revision Toolkit
 
 ### Use these to:
 - Practice under timed conditions
@@ -742,21 +758,29 @@ How does it support your argument?]
 
 ---
 
-# Appendix: Quick Reference Sheet
+# Appendix: Section A Strategy
 
-## Section A Strategy:
+## Reading Comprehension Success:
 - Read passage 2x slowly
 - Annotate: key words, tone, mood
 - Answer retrieval Qs directly
 - Explain inferences with evidence
 
-## Section B Strategy:
+---
+
+# Appendix: Section B Strategy
+
+## Techniques & Effects Success:
 - Name the technique
 - Quote/reference the text
 - Explain the effect
 - Connect to character/theme
 
-## Section C Strategy:
+---
+
+# Appendix: Section C Strategy
+
+## Essay Writing Success:
 - Write thesis clearly
 - Find 3+ strong pieces of evidence
 - Use PEE paragraphs

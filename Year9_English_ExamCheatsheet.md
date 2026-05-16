@@ -7,11 +7,11 @@
 
 ### The Three Understanding Levels
 
-| Level | What | How to Answer |
+| Level | What | Answer Starter |
 |-------|------|---|
-| **RETRIEVAL** | Find info *directly stated* | Quote or paraphrase exactly from text. Answer: "The passage states that..." |
-| **INFERENCE** | Read *between the lines* | Use clues to deduce meaning. Answer: "This suggests..." or "We can infer..." |
-| **INTERPRETATION** | Understand *significance* | Explain meaning & relevance. Answer: "This reveals..." or "This matters because..." |
+| **RETRIEVAL** | Find info stated directly | "The passage states that..." |
+| **INFERENCE** | Read between the lines | "This suggests..." or "We infer..." |
+| **INTERPRETATION** | Understand significance | "This reveals..." or "This matters..." |
 
 ### The Close Reading Process (5 Steps)
 
@@ -35,9 +35,10 @@ QUOTE/REFERENCE + YOUR EXPLANATION + WHY IT MATTERS
 | Mistake | Problem | Fix |
 |---------|---------|-----|
 | Memory instead of text | Misremembering details | Reread passage for EVERY answer |
-| Misquoting | Inaccurate evidence | Quote word-for-word from text |
+| Misquoting | Inaccurate evidence | Quote word-for-word exactly |
 | No explanation | Just stating facts | Always explain WHY it matters |
-| Adding interpretation to retrieval | Mixing levels | Keep retrieval = facts; interpretation = significance |
+| Mixing retrieval + interpretation | Confusing levels | Keep them separate |
+
 
 ---
 
@@ -54,34 +55,34 @@ TECHNIQUE NAME → TEXTUAL EVIDENCE → EFFECT ON READER
 
 ### PAPER 1 TECHNIQUES (The Catcher in the Rye)
 
-| Technique | What Salinger Does | Effect |
-|-----------|------------------|--------|
-| **Stream of consciousness** | Holden's thoughts jump around; digress | Intimate; reveals scattered, anxious mind |
-| **Colloquial language** | "goddam," "corny," "phoney," contractions | Authentic teenage voice; relatable; immediate |
-| **Irony** | Says one thing, means another; contradictions | Complexity; reveals Holden's conflicts |
-| **Symbolism** | Red hat = individuality; ducks = loss; museum = preservation | Deepens themes; layers of meaning |
-| **Characterisation** | Direct (tells us) + Indirect (shows us through action/speech) | Creates complexity; reveals internal conflict |
-| **Tone & mood** | Shifts from comfortable to frustrated to hostile | Emotional complexity; mirrors Holden's state |
+| Technique | Use | Effect |
+|-----------|-----|--------|
+| **Stream of consciousness** | Jumpy, digressive thoughts | Intimate; reveals anxious mind |
+| **Colloquial language** | "goddam," "corny," "phoney" | Authentic teenage voice |
+| **Irony** | Says one thing, means another | Reveals Holden's conflicts |
+| **Symbolism** | Red hat, ducks, museum | Layers of meaning |
+| **Characterisation** | Direct + Indirect methods | Reveals internal conflict |
+| **Tone & mood** | Shifts in emotion | Mirrors Holden's state |
 
 ### PAPER 2 TECHNIQUES (The Swerve)
 
-| Technique | What Greenblatt Does | Effect |
-|-----------|-------------------|--------|
-| **Contrast & juxtaposition** | Material goods vs. books; classical vs. medieval; loss vs. recovery | Emphasises significance; creates memorable argument |
-| **Embedded quotation** | Weaves primary sources (Petrarch, Cicero) into narrative | Authenticity; immediacy; voices speak directly |
-| **Narrative non-fiction** | Tells story while making argument; develops characters | Engages reader emotionally + intellectually |
-| **Paradox** | Petrarch: Christian + pagan obsession; contempt makes him famous | Reveals complexity; makes readers think deeply |
-| **Metaphor** | "Resurrection" for recovery of knowledge | Elevates project to spiritual transformation level |
-| **Tone & voice** | Scholarly yet engaging; respectful, analytical, passionate | Builds credibility; maintains engagement |
+| Technique | Use | Effect |
+|-----------|-----|--------|
+| **Contrast** | Gold vs. books; classical vs. medieval | Creates memorable argument |
+| **Embedded quotation** | Primary sources woven into narrative | Authenticity; immediacy |
+| **Narrative non-fiction** | Story + argument; character development | Emotional + intellectual engagement |
+| **Paradox** | Christian + pagan; contempt = fame | Reveals complexity |
+| **Metaphor** | "Resurrection" for knowledge recovery | Elevates project significance |
+| **Tone & voice** | Scholarly yet accessible | Credible; persuasive |
 
 ### Common Section B Mistakes
 
 | Mistake | Problem | Fix |
 |---------|---------|-----|
-| Naming only | No effect explained | ALWAYS add effect: "This creates..." |
-| Confusing technique with content | Describing what happens, not HOW | Focus on author's choices, not plot |
-| Weak/missing evidence | No quote to verify | Provide specific quote or line reference |
-| Vague effect | "Creates an effect" (empty) | Be concrete: "makes reader sympathise/understand/feel" |
+| Naming only | No explanation | Add: "This creates..." |
+| Technique vs. content | Describing plot, not HOW | Focus on author's choices |
+| Missing evidence | No quote | Add specific quote/reference |
+| Vague effect | "Creates an effect" | Be specific: sympathise/understand/feel |
 
 ---
 
@@ -187,32 +188,38 @@ CONCLUSION (2–3 sentences)
 
 ### Key Players & Ideas
 
-| Figure/Idea | What/Why It Matters |
-|---|---|
-| **Petrarch** | Humanist obsessed with classical texts; showed recovery of ancient knowledge was *passionate*, not just academic |
-| **Poggio** | Scribe who found the manuscript; obscure figure, enormous consequence (the "swerve") |
-| **Lucretius & *De rerum natura*** | Ancient poem arguing for atomism, pleasure as good, no divine order — considered dangerous by Church |
-| **The "swerve" (clinamen)** | Metaphor: tiny atomic deviation causes collision, creating everything. Similarly, manuscript discovery caused Renaissance |
-| **Petrarch's paradox** | Devout Christian + obsessed with pagan ideas = shows both worldviews possible; gap between medieval & classical |
+**Petrarch:** Humanist obsessed with classical texts; made recovery a *passion*
+
+**Poggio:** Scribe who found manuscript; obscure figure, enormous consequence
+
+**Lucretius & *De rerum natura*:** Ancient poem; ideas were dangerous to Church
+
+**The "swerve" (clinamen):** Tiny deviation causes collision/change; discovery sparked Renaissance
+
+**Petrarch's paradox:** Christian + pagan obsession = shows worldview gap
 
 ### Dangerous Ideas in Lucretius
 
-- Universe = atoms in void; no divine design
-- Gods exist but don't control world (undermines Church authority)
-- Pleasure = legitimate good (contradicts Christian asceticism)
-- No afterlife; no cosmic purpose (threatens Christian worldview)
-- Offers alternative to religious meaning-making
+**Universe:** Atoms in void; no divine design
+
+**Gods:** Exist but don't control world (threatens Church authority)
+
+**Pleasure:** Legitimate good (contradicts Christian asceticism)
+
+**Afterlife:** None; no cosmic purpose (threatens worldview)
+
+**Worldview:** Alternative to religion
 
 ### Greenblatt's Rhetorical Moves
 
 | Move | Why It Works | Effect |
 |------|---|---|
-| **Narrative** | Opens with story, not assertion | Readers care about Poggio's journey |
-| **Characterisation** | Develops Petrarch as complex person | Humanists seem real, passionate, significant |
-| **Embedded quotation** | Uses primary sources directly | Voices "speak"; authenticity; immediacy |
-| **Contrast** | Gold vs. books; classical vs. medieval | Highlights differences; memorable argument |
-| **Authority tone** | Scholarly, confident, controlled | Credible; persuasive; builds trust |
-| **Obscure-made-significant** | Focus on minor figures & texts | Shows ideas matter; history turns on small choices |
+| **Narrative** | Story, not assertion | Readers care emotionally |
+| **Characterisation** | Complex Petrarch | Humanists seem real |
+| **Embedded quotation** | Primary sources | Authenticity; immediacy |
+| **Contrast** | Gold vs. books | Memorable argument |
+| **Authority tone** | Scholarly, confident | Credible; persuasive |
+| **Minor figures** | Obscure → significant | Ideas matter; agency matters |
 
 ### Key Themes (For Essays)
 
@@ -238,11 +245,11 @@ CONCLUSION (2–3 sentences)
 
 | Section | Duration | Strategy |
 |---------|----------|----------|
-| **Read & annotate passage** | 3–4 min | Read 2x; underline key words; mark tone shifts |
-| **Section A (20 marks)** | 15 min | 3–4 min per question; always quote/reference |
-| **Section B (20 marks)** | 13 min | 3 min per 4-mark Q; 4 min per 5-mark Q; use sandwich |
-| **Section C (40 marks)** | 30 min | 5 min planning, 20 min writing, 5 min checking |
-| **Check & fix typos** | 3 min | Reread answers; add missing words; fix unclear sentences |
+| **Read & annotate** | 3–4 min | Read 2x; mark key words; note tone shifts |
+| **Section A** | 15 min | 3–4 min per Q; always quote/reference |
+| **Section B** | 13 min | Use technique sandwich formula |
+| **Section C** | 30 min | 5 min plan, 20 min write, 5 min check |
+| **Final check** | 3 min | Fix typos; clarify unclear sentences |
 
 ### If You Run Out of Time
 
@@ -292,12 +299,12 @@ CONCLUSION (2–3 sentences)
 - [ ] Silence phone
 
 ### During the Exam
-- [ ] Read each question CAREFULLY (twice if needed)
-- [ ] Reread the passage for EVERY answer (don't rely on memory)
+- [ ] Read each question twice before answering
+- [ ] Reread passage for EVERY answer (not memory)
 - [ ] Quote accurately (word-for-word)
-- [ ] For Section B: Name technique + provide evidence + explain effect
-- [ ] For Section C: Write clear thesis + have PEE paragraphs
-- [ ] Check spelling of character/author names
+- [ ] Sec B: Name technique + evidence + effect
+- [ ] Sec C: Clear thesis + PEE paragraphs
+- [ ] Check character/author name spelling
 - [ ] Leave time to reread and fix typos
 
 ### If You Panic
@@ -333,20 +340,18 @@ CONCLUSION (2–3 sentences)
 
 ## QUICK TECHNIQUE ID GUIDE
 
-### When you see... you're probably looking at:
-
-| Clue | Technique |
-|------|-----------|
-| Repetition of same word/phrase | Repetition (emphasises; creates rhythm) |
-| Opposite ideas placed together | Contrast/paradox (highlights difference; reveals complexity) |
-| One thing represents something else | Symbolism (adds layers of meaning) |
-| Author says opposite of what they mean | Irony (creates complexity; reveals contradiction) |
-| Casual, conversational language | Colloquial register (authentic voice; relatable) |
-| Character described through actions | Characterisation (shows personality indirectly) |
-| Vivid, sensory description | Imagery (helps reader visualise; creates atmosphere) |
-| Jumpy, digressive thoughts | Stream of consciousness (intimate; reveals mind) |
-| Story told in non-fiction | Narrative technique (engages emotionally) |
-| Author's perspective & style | Tone & voice (reveals attitude; builds credibility) |
+| Clue | Technique | Effect |
+|------|----------|---------|
+| Repeated word/phrase | Repetition | Emphasises; creates rhythm |
+| Opposite ideas together | Contrast/paradox | Highlights difference |
+| One thing = something else | Symbolism | Adds layers of meaning |
+| Says opposite of meaning | Irony | Reveals contradiction |
+| Casual language | Colloquial register | Authentic; relatable |
+| Actions reveal character | Characterisation | Shows indirectly |
+| Sensory description | Imagery | Visualises; creates mood |
+| Jumpy thoughts | Stream of consciousness | Intimate; reveals mind |
+| Story in non-fiction | Narrative technique | Engages emotionally |
+| Author's style | Tone & voice | Reveals attitude |
 
 ---
 

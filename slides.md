@@ -79,6 +79,10 @@ Circle unfamiliar words. Note words that appear multiple times. Underline phrase
 ### Step 3: Look Up Meanings
 Use context to guess meaning. Then verify. Example: "They gave me the wrong book" — in context, we understand Holden wasn't upset; he discovered it was good.
 
+---
+
+# The Close Reading Process (Continued)
+
 ### Step 4: Annotate for Tone & Mood
 In margins, write: "Lonely?" "Angry here?" "Nostalgic tone." Mark shifts in emotion.
 
@@ -244,9 +248,7 @@ All reading operates on three interconnected levels. Section A of the exam tests
 
 ---
 
-# Exam Strategy: Section A
-
-**The Question Types You'll See:**
+# Exam Strategy: Section A — Question Types (Part 1)
 
 1. **Retrieval questions** (1–2 marks)
    - "What does Holden do first?"
@@ -262,6 +264,10 @@ All reading operates on three interconnected levels. Section A of the exam tests
    - "What does [word] mean as used in the passage?"
    - Must explain meaning *in context*, not dictionary definition
 
+---
+
+# Exam Strategy: Section A — Question Types (Part 2)
+
 4. **Character/Tone questions** (2–4 marks)
    - "How is [character] presented?"
    - "What is the tone of this passage?"
@@ -273,7 +279,7 @@ All reading operates on three interconnected levels. Section A of the exam tests
 
 ---
 
-# Common Retrieval Mistakes
+# Common Retrieval Mistakes (Part 1)
 
 ### ❌ Mistake 1: Using Memory Instead of Text
 **Student:** "Ackley is mean and picks on Holden."  
@@ -285,6 +291,10 @@ All reading operates on three interconnected levels. Section A of the exam tests
 **Problem:** Inexact; loses Holden's actual word choice  
 **Fix:** "Holden says the hat is 'very corny, I'll admit, but I liked it that way.'"
 
+---
+
+# Common Retrieval Mistakes (Part 2)
+
 ### ❌ Mistake 3: Adding Interpretation to Retrieval
 **Student:** "Holden is alienated and buys the hat to express his individuality."  
 **Problem:** This is inference/interpretation, not retrieval; no quote to support it here  
@@ -292,7 +302,7 @@ All reading operates on three interconnected levels. Section A of the exam tests
 
 ---
 
-# The Art of Quoting Accurately
+# The Art of Quoting Accurately (Part 1)
 
 ### Rule 1: Quote Precisely
 Don't paraphrase what someone said; quote exactly.
@@ -305,6 +315,10 @@ Don't drop quotes into sentences. Make them part of your sentence.
 
 **❌ Weak:** "Holden describes how he wore the hat. 'I swung the old peak way around to the back.'"  
 **✅ Strong:** "Holden describes his unconventional style, explaining that 'I swung the old peak way around to the back—very corny, I'll admit, but I liked it that way.'"
+
+---
+
+# The Art of Quoting Accurately (Part 2)
 
 ### Rule 3: Use [sic] or [...] When Needed
 If you omit words or change tense, show that.
@@ -943,7 +957,7 @@ Salinger's greatest achievement in *The Catcher in the Rye* is **Holden's voice*
 
 ---
 
-# Holden's Voice: Why Readers Care
+# Holden's Voice: Why Readers Care (Part 1)
 
 Because Holden's voice is so authentic and vulnerable, readers *forgive* his harshness.
 
@@ -953,6 +967,10 @@ Because Holden's voice is so authentic and vulnerable, readers *forgive* his har
 3. **Intelligence** — He understands his own contradictions
 4. **Grief** — We recognize his depression as rooted in real loss
 5. **Honesty** — He admits when he's wrong or exaggerating
+
+---
+
+# Holden's Voice: Why Readers Care (Part 2)
 
 ### Why we're frustrated with Holden:
 1. **Harshness** — He judges others (Ackley, Stradlater) cruelly
@@ -1267,9 +1285,7 @@ Material wealth is temporary and shallow. Books offer something deeper: connecti
 
 ---
 
-# Lucretius & Epicureanism: The Dangerous Ideas
-
-To understand why Greenblatt's story matters, you need to understand what *De rerum natura* says.
+# Lucretius & Epicureanism: The Dangerous Ideas (Part 1)
 
 ### Lucretius's Central Argument:
 1. **Atomism:** The universe consists of atoms moving in void; no divine design
@@ -1277,6 +1293,10 @@ To understand why Greenblatt's story matters, you need to understand what *De re
 3. **Pleasure as the good:** Freedom from pain and fear = highest good
 4. **No afterlife:** Death is nothing; we simply cease
 5. **No cosmic purpose:** The universe is not made for humans
+
+---
+
+# Lucretius & Epicureanism: The Dangerous Ideas (Part 2)
 
 ### Why the Medieval Church Feared This:
 - Contradicts Christian cosmology (divine creation, divine order)
@@ -1286,47 +1306,41 @@ To understand why Greenblatt's story matters, you need to understand what *De re
 - Offers alternative meaning-making system (philosophy, not theology)
 
 ### Why Greenblatt Cares:
-**This book represented dangerous knowledge** — ideas that could reshape how people understand themselves, their world, and their society. The fact that the Church suppressed it, and that its rediscovery mattered, shows how powerful ideas really are.
+**This book represented dangerous knowledge** — ideas that could reshape worldviews. The fact that the Church suppressed it shows how powerful ideas really are.
 
 ---
 
-# Greenblatt's Rhetorical Moves: How He Builds His Argument
+# Greenblatt's Rhetorical Moves: How He Builds His Argument (Part 1)
 
 Greenblatt doesn't just *state* his argument. He constructs it carefully through rhetoric.
 
 ### Rhetorical Move 1: Narrative
-Instead of opening with "The Renaissance began when Poggio recovered a manuscript," Greenblatt *narrates* Poggio's search. He makes it a story. Why?
-
-**Effect:** Readers care about a story more than an assertion. By making Poggio a character, Greenblatt makes the argument emotionally resonant.
+Instead of opening with an assertion, Greenblatt *narrates* Poggio's search as a story.
+**Effect:** Readers care about stories more than assertions. Emotional resonance.
 
 ### Rhetorical Move 2: Characterisation
-Greenblatt develops Petrarch as a complex character: brilliant but obsessive, devout but secular-minded, isolated yet connected to a network. Why?
-
-**Effect:** If the humanists were just scholars, their work might seem academic. By showing their psychological complexity, Greenblatt elevates the stakes. These were real people wrestling with real contradictions.
+Greenblatt develops Petrarch as a complex character: brilliant, obsessive, devout, secular-minded.
+**Effect:** Elevates stakes; shows real people wrestling with real contradictions.
 
 ### Rhetorical Move 3: Embedded Quotation
-Rather than paraphrasing Petrarch's ideas, Greenblatt quotes him directly. Why?
-
-**Effect:** Authenticity. The reader hears the historical voice directly. It feels like immediate evidence, not interpretation.
+Rather than paraphrasing, Greenblatt quotes historical figures directly.
+**Effect:** Authenticity and immediacy; feels like direct evidence.
 
 ---
 
-# Greenblatt's Rhetorical Moves (continued)
+# Greenblatt's Rhetorical Moves (Part 2)
 
 ### Rhetorical Move 4: Contrast & Juxtaposition
-Greenblatt repeatedly contrasts classical and medieval worldviews, Christianity and paganism, loss and recovery. Why?
-
-**Effect:** Contrast highlights difference. By placing opposites side by side, Greenblatt makes the stakes clear. This wasn't a smooth transition; it was a genuine rupture and recovery.
+Greenblatt repeatedly contrasts classical and medieval worldviews.
+**Effect:** Highlights difference; shows stakes clearly; not a smooth transition but a genuine rupture.
 
 ### Rhetorical Move 5: Tone of Authority
-Greenblatt writes with scholarly confidence. He cites sources, acknowledges complexity, but always with control. Why?
-
-**Effect:** Credibility. Readers trust that Greenblatt knows what he's talking about. His tone conveys expertise without arrogance.
+Greenblatt writes with scholarly confidence, citing sources while acknowledging complexity.
+**Effect:** Credibility; readers trust his expertise.
 
 ### Rhetorical Move 6: Making the Obscure Significant
-Poggio was an obscure scribe. Lucretius was buried in history. By focusing on these minor figures and forgotten texts, Greenblatt says: "Small things can have enormous consequences."
-
-**Effect:** Elevates the stakes of the entire book. If an obscure manuscript discovery mattered, then ideas matter. Culture matters. History is not inevitable; it turns on human choices.
+By focusing on obscure figures (Poggio) and forgotten texts, Greenblatt shows: small things have enormous consequences.
+**Effect:** Ideas and culture matter; history turns on human choices.
 
 ---
 
